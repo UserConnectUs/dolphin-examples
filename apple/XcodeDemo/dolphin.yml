@@ -1,0 +1,5 @@
+base: en
+translator: openai
+localizations:
+  - path: XcodeDemo.xcodeproj
+    format: xcode
