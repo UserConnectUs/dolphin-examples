@@ -1,9 +1,10 @@
-base: en
+baseLanguage: en
 translator:
   agent: openai
   mode: interactive
 localizations:
-  - path: TranditionalXcodeDemo/${LANGUAGE}.lproj/Localizable.strings
+  - id: app
+    path: TranditionalXcodeDemo/${LANGUAGE}.lproj/Localizable.strings
     format: strings
     languages:
       - fr

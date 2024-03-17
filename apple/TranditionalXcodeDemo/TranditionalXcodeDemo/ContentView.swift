@@ -11,7 +11,7 @@ struct ContentView: View {
     
     private let author = "Lance"
     
-    private let numberOfLines = 20
+    private let numberOfLines: Int = 20
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -33,7 +33,7 @@ struct ContentView: View {
             }
             .buttonStyle(BorderedProminentButtonStyle())
             
-            Text("New Message [Noun]")
+            Text("New Message [Noun] \"%@\"")
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
